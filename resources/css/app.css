@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@import "./tokens.css";
+@import "./components/admin.css";
+@import "./components/frontend.css";
+
+@layer utilities {
+    .bg-background {
+        background-color: var(--color-background);
+    }
+    .text-foreground {
+        color: var(--color-foreground);
+    }
+    .bg-primary {
+        background-color: var(--color-primary);
+    }
+    .text-primary-foreground {
+        color: var(--color-primary-foreground);
+    }
+    .text-primary {
+        color: var(--color-primary);
+    }
+    .bg-secondary {
+        background-color: var(--color-secondary);
+    }
+    .bg-accent {
+        background-color: var(--color-accent);
+    }
+    .text-muted-foreground {
+        color: var(--color-muted-foreground);
+    }
+    .border-border {
+        border-color: var(--color-border);
+    }
+    .bg-input-background {
+        background-color: var(--color-input-background);
+    }
+    .ring-ring {
+        --tw-ring-color: var(--color-ring);
+    }
+    .bg-primary\/10 {
+        background-color: rgba(45, 122, 62, 0.1);
+    }
+    .bg-primary\/50 {
+        background-color: rgba(45, 122, 62, 0.5);
+    }
+    .bg-secondary\/80 {
+        background-color: rgba(240, 247, 242, 0.8);
+    }
+    .bg-secondary\/10 {
+        background-color: rgba(240, 247, 242, 0.1);
+    }
+    .bg-destructive\/10 {
+        background-color: rgba(220, 38, 38, 0.1);
+    }
+    .border-primary\/50 {
+        border-color: rgba(45, 122, 62, 0.5);
+    }
+    .border-destructive\/50 {
+        border-color: rgba(220, 38, 38, 0.5);
+    }
+    .hover\:bg-accent:hover {
+        background-color: var(--color-accent);
+    }
+    .hover\:bg-primary\/90:hover {
+        background-color: rgba(45, 122, 62, 0.9);
+    }
+    .hover\:bg-secondary\/80:hover {
+        background-color: rgba(240, 247, 242, 0.8);
+    }
+}
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
