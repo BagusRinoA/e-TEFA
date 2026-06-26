@@ -1,4 +1,4 @@
-# e-TEFA Kompeni - Hydroponic Agriculture Platform
+# e-TEFA Kompeni - Sistem Informasi Manajemen Produk dan Penjualan Berbasis Website
 
 ## Deskripsi Proyek
 
